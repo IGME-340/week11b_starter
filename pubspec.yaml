@@ -1,0 +1,24 @@
+name: week11b_starter
+description: "IGME-340 Week 11B: Flame game engine, sprite movement and a joystick"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Already installed, so there's no `flutter pub add` today.
+  flame: ">=1.23.0 <2.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ">=4.0.0 <7.0.0"
+
+flutter:
+  uses-material-design: true
+  # The trailing slash loads every image in the folder.
+  assets:
+    - assets/images/
